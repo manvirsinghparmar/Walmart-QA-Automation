@@ -18,7 +18,7 @@ import com.walmart.qa.utils.Utils;
 
 public class LoginPage extends Base {
 
-	WebDriverWait wait = new WebDriverWait(driver, 30);
+	WebDriverWait wait = new WebDriverWait(driver, 60);
 
 	Actions action = new Actions(driver);
 
@@ -71,7 +71,7 @@ public class LoginPage extends Base {
 	@FindBy(xpath = "//div[@class='css-1f9gjts' and contains(@style,'calc(3.546099290780142% ')]")
 	WebElement covidInformation;
 
-	@FindBy(xpath = "//img[contains(@alt,'Video games')]")
+	@FindBy(xpath = "//span[contains(text(),'Video games')]")
 	WebElement videoGames;
 
 	@FindBy(xpath = "//h1[contains(text(),'Video Games')]")

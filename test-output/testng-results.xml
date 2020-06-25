@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+<testng-results skipped="0" failed="0" ignored="11" total="12" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31791" started-at="2020-06-17T11:02:43Z" finished-at="2020-06-17T11:03:15Z">
+  <suite name="Default suite" duration-ms="18708" started-at="2020-06-25T06:29:54Z" finished-at="2020-06-25T06:30:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31791" started-at="2020-06-17T11:02:43Z" finished-at="2020-06-17T11:03:15Z">
-      <class name="com.qa.walmart.Tests.ShopGroceriesTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.walmart.Tests.ShopGroceriesTest@3c87521]" name="setUp" is-config="true" duration-ms="13253" started-at="2020-06-17T07:02:43Z" finished-at="2020-06-17T07:02:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyfaceBookLogoColorTest()[pri:2, instance:com.qa.walmart.Tests.ShopGroceriesTest@3c87521]" name="verifyfaceBookLogoColorTest" duration-ms="9547" started-at="2020-06-17T07:02:57Z" finished-at="2020-06-17T07:03:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyfaceBookLogoColorTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.walmart.Tests.ShopGroceriesTest@3c87521]" name="tearDown" is-config="true" duration-ms="8960" started-at="2020-06-17T07:03:06Z" finished-at="2020-06-17T07:03:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="loggersetUp()[pri:0, instance:com.qa.walmart.Tests.ShopGroceriesTest@3c87521]" name="loggersetUp" is-config="true" duration-ms="4" started-at="2020-06-17T07:03:15Z" finished-at="2020-06-17T07:03:15Z">
+    <test name="Default test" duration-ms="18708" started-at="2020-06-25T06:29:54Z" finished-at="2020-06-25T06:30:12Z">
+      <class name="com.qa.walmart.Tests.LoginPageTest">
+        <test-method status="PASS" signature="loggersetUp()[pri:0, instance:com.qa.walmart.Tests.LoginPageTest@3c87521]" name="loggersetUp" is-config="true" duration-ms="76" started-at="2020-06-25T02:29:54Z" finished-at="2020-06-25T02:29:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loggersetUp -->
-      </class> <!-- com.qa.walmart.Tests.ShopGroceriesTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.walmart.Tests.LoginPageTest@3c87521]" name="setup" is-config="true" duration-ms="8763" started-at="2020-06-25T02:29:54Z" finished-at="2020-06-25T02:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="bannerMovementDetectionTest()[pri:12, instance:com.qa.walmart.Tests.LoginPageTest@3c87521]" name="bannerMovementDetectionTest" duration-ms="9026" started-at="2020-06-25T02:30:03Z" finished-at="2020-06-25T02:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bannerMovementDetectionTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.walmart.Tests.LoginPageTest@3c87521]" name="tearDown" is-config="true" duration-ms="822" started-at="2020-06-25T02:30:12Z" finished-at="2020-06-25T02:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.walmart.Tests.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 293.828 s <<< FAILURE! - in TestSuite
+com.qa.walmart.Tests.LoginPageTest.clickLeftBottomBannerTest  Time elapsed: 103.672 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (0f6f5c11e378acce93237ee2ae71219b)] -> xpath: //img[@alt='Walmart Rewards MasterCard.']] (tried for 60 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'LAPTOP-JVNL5G83', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}), userDataDir=C:\WINDOWS\TEMP\scoped_dir15656_1680973716}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:64227}, acceptInsecureCerts=false, browserVersion=83.0.4103.116, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 0f6f5c11e378acce93237ee2ae71219b
+	at com.qa.walmart.Tests.LoginPageTest.clickLeftBottomBannerTest(LoginPageTest.java:97)
+

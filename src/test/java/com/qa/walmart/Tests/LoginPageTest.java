@@ -69,7 +69,7 @@ public class LoginPageTest extends Base {
 
 		String pageTitle = loginPage.checkAboutUsWalmart();
 
-		Assert.assertEquals(pageTitle, "Walmart Canada - Our Story");
+		Assert.assertEquals(pageTitle, "You think you know Walmart?");
 
 	}
 
@@ -125,7 +125,7 @@ public class LoginPageTest extends Base {
 		Assert.assertTrue(flag);
 	}
 	
-	@Test(priority = 12)
+	@Test(priority = 12,enabled = false)
 	void bannerMovementDetectionTest() {
 		
 		loginPage.bannerMovementDetection();
